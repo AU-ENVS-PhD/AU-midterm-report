@@ -1,0 +1,67 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{gensymb}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{csquotes}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{subcaption}
+\usepackage{caption}
+\usepackage{mwe}
+\usepackage{wrapfig}
+\usepackage{listings}
+\usepackage{lipsum}
+\usepackage{booktabs}
+
+
+\geometry{a4paper, total={210mm,297mm},left=25mm,right=25mm,top=30mm, bottom=30mm}
+\usepackage{array}
+\usepackage{multicol}
+\usepackage{bm}
+\usepackage{caption}
+\usepackage{mathtools}
+\setlength\parindent{0pt}
+\linespread{1.2}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{Anders Andersen}
+\chead{\hspace{2cm} } %INSERT TEXT
+\rhead{\today}
+\cfoot{}
+\rfoot{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\usepackage{natbib}
+
+\title{PhD plan}
+\author{Anders Andersen}
+\date{April 2020}
+
+\begin{document}
+
+\input{tex/Front}
+
+\tableofcontents
+\newpage
+\input{tex/Introduction}
+\newpage
+\input{tex/PaperI}
+\newpage
+\input{tex/PaperII}
+\newpage
+\input{tex/PaperIII}
+\newpage
+\input{tex/Courses}
+
+
+\newpage
+\vspace{6cm}
+\bibliographystyle{apalike}
+\bibliography{ref.bib}
+
+\end{document}
